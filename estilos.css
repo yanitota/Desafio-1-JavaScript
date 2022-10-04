@@ -1,0 +1,258 @@
+/* CELULARES */
+
+/* BODY - BARRA DE NAVEGACION - INICIO - NOSOTRAS */
+*,
+html,
+body a {
+    background-color: whitesmoke;
+    font-family: 'EB Garamond', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 50px;
+}
+
+#minilogo {
+    width: 50px;
+    opacity: 0.8;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    filter: blur(1);
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.nav-lis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    opacity: 0.8;
+    background-color: #fcfcfc;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+}
+
+.seccion {
+    margin: 20px 20px 20px 0;
+}
+
+hr {
+    margin: 0 20px 20px 0px;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+.ul2 li {
+    padding-left: 5px;
+    background-color: #fcfcfc;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: darkred;
+}
+
+h1 span {
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: block;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo h3 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.seccion-nosotras p span {
+    display: block;
+    font: 16px;
+    font-weight: bold;
+    margin-top: 20px 0px 10px 0;
+}
+
+h2 {
+    color: #A21D1D;
+    font-family: 'Bree Serif', serif;
+    text-align: left;
+    display: block;
+    margin-left: 10px;
+}
+
+/* PRODUCTOS */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto {
+    width: 300px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imagen-producto img {
+    width: 100%;
+}
+
+.producto1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descripcion-producto p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.descripcion-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion-producto button {
+    width: 80px;
+    background-color: darkred;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* FORMULARIO */
+.form {
+    font-size: 20px;
+}
+
+.form button {
+    width: 50px;
+    text-transform: capitalize;
+}
+
+/* CONTACTANOS */
+.contactanos2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#redes {
+    width: 30px;
+    margin: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+/* TABLET Y COMPUTADORAS*/
+@media screen and (min-width: 768px) {
+    .productos {
+        justify-content: flex-start;
+    }
+
+    nav {
+        margin-top: 0px;
+    }
+
+    #nav-lis {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #fcfcfc;
+        opacity: 0.8;
+    }
+
+    li {
+        display: flex;
+        margin-right: 20px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    body {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .seccion {
+        margin: 40px 40px 40px 0;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 100px;
+    }
+    
+    .subtitulo h3 {
+        font-size: 20px;
+      
+    }
+
+}
